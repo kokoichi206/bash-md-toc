@@ -29,6 +29,13 @@ $ bash md-toc.sh -min 2 <file_name>
 $ bash md-toc.sh -h
 ```
 
+## Installation
+
+```sh
+$ chmod 755 md-toc.sh
+$ sudo mv md-toc.sh /usr/local/bin/md-toc
+```
+
 ## License
 
 This repository is under [MIT license](./LICENSE).
