@@ -18,6 +18,8 @@ function install_cmd() {
 function install_man() {
     echo "===== installing md-toc manual to /usr/share/man/man1/md-toc.1.gz ====="
     install -m 0644 -D ./docs/man/md-toc.1.gz /usr/share/man/man1
+    echo "===== installing md-toc manual to /usr/share/man/ja/man1/md-toc.1.gz ====="
+    install -m 0644 -D ./docs/man/ja/md-toc.1.gz /usr/share/man/ja/man1
 }
 
 install_cmd
